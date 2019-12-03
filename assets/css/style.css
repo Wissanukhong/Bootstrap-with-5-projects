@@ -56,5 +56,11 @@ html, body {
 .footer{
     background: #313131;
     color: #ffffff;
-
 }
+
+.second-right-footer{
+    position: relative;
+    top: 20%;
+    font-size: 20px;
+}
+

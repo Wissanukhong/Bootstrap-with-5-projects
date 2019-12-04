@@ -52,15 +52,16 @@ html, body {
     height: 100%;
 }
 
-
+/* footer */
 .footer{
     background: #313131;
     color: #ffffff;
 }
 
+/* ต้องการให้ caption ที่อยู่ด้านขวา มีตำแหน่งที่อยู่ตรงกลาง */
 .second-right-footer{
-    position: relative;
-    top: 20%;
-    font-size: 20px;
+    position: relative; /* เราจะต้องกำหนดให้สิ่งนั้นเป็น relative ก่อน */ /* การแสดงผลด้วย position: relative; นั้นจะแสดงผลออกมา ณ จุด ๆ นั้น ที่ element อยู่ */
+    top: 20%; /* กำหนดระยะห่างจากด้านบน 20% (ความกว้างของ div เท่าไหร่ไม่รู้ แต่ระยะห่างจากด้านบนอยู่ที่ 20 %) */
+    font-size: 20px; /* ขนาดของ font  */
 }
 

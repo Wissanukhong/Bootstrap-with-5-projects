@@ -1,3 +1,3 @@
-function showclick() {
-    alert("Click completed");
+function myButton () {
+    alert("Click");
 }

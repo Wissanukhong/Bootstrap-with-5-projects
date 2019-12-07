@@ -1,32 +1,26 @@
-html, body{
-    padding: 0;
-    margin: 0;
-}
-
-
-.container {
+.container{
     width: 100%;
-    padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
+    padding-right: 15px;
     margin-left: auto;
+    margin-right: auto;
 }
+
 
 .btn-button{
     position: absolute;
-    content: " ";
+    content: ""; 
+    width: 200px;
+    height: auto;
     top: 50%;
     left: 50%;
     margin-left: -100px;
-    width: 200px;
-    height: auto;
     padding: 20px;
-    background: #FF6347;
-    border-radius: 8px;
-    transition: 0.5s; 
+    border-radius: 10px;
+    background: rgb(14, 71, 109);
+    transition: 1s;
 }
 
 button:hover{
     transform: scale(1.5);
-    background: #FF4500;
 }

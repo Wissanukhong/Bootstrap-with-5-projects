@@ -65,3 +65,19 @@ html, body {
     font-size: 20px; /* ขนาดของ font  */
 }
 
+
+/* code kata page */
+.warpper-card-img{
+    position: relative;
+    padding-top: 56.25%; /* ขนาดของภาพ 16/9 */
+    overflow: hidden;
+}
+.warpper-card-img img{
+    position: absolute; /*กำหนดตำแหน่งให้สามารถเคลื่อนที่ไปไหนก็ได้*/
+    top: 0;
+    transition: 1.5s;
+}
+
+.warpper-card-img img:hover{
+    transform: scale(1.5);
+}

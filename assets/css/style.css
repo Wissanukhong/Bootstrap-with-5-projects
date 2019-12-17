@@ -25,6 +25,10 @@ html, body {
     background: rgba(0, 0, 0, 0.5);
 }
 
+#navbar{
+    transition: 0.5s;
+}
+
 /* carousel */
 .carousel,
 .carousel-inner,

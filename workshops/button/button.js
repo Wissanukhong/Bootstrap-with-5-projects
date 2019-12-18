@@ -1,3 +1,0 @@
-function myButton () {
-    alert("Click");
-}

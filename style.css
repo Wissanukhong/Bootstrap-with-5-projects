@@ -315,6 +315,26 @@ section.home {
   padding: 60px 40px 20px;
 }
 
+.contact-info .info-box {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.contact-info .info-box .contact-icon {
+  width: 20px;
+  margin-right: 40px;
+}
+
+.contact-info .info-box .details h4 {
+  color: #1b206e;
+}
+
+.contact-info .info-box .details p,
+.contact-info .info-box .details a {
+  color: var(--text);
+}
+
 /* Responsive */
 @media (max-width: 1025px) {
   .home-img {
@@ -338,6 +358,31 @@ section.home {
   /* service responsive */
   .services {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 30px 30px 20px;
+  }
+
+  .contact-form .row {
+    flex-direction: column;
+  }
+
+  .contact-form .input50,
+  .contact-form .inpun100 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 30px 20px;
   }
 }
 
